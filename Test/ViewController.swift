@@ -78,7 +78,10 @@ class ViewController: UIViewController, GMSMapViewDelegate {
     }
     func mapView(_ mapView: GMSMapView, didTapMarker marker: GMSMarker) {
         print("You tapped" + marker.title!)
+        performSegue(withIdentifier: "segue1", sender: self)
     }
+    
+
     
     
 }
