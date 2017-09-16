@@ -12,6 +12,8 @@ import Alamofire
 
 class ViewController: UIViewController, GMSMapViewDelegate {
     
+    var idToPass = "nil"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -74,8 +76,14 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         plotMarkers(mapView: mapView, endpoint: "users")
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let controller = segue.destination as? SecondViewController
+        controller?.idToDisplay = self.idToPass
+    }
+    
     func mapView(_ mapView: GMSMapView, didTapMarker marker: GMSMarker) {
-        print(marker.title)
+        //print(marker.title)
+        self.idToPass = marker.title!
         performSegue(withIdentifier: "segue1", sender: self)
     }
 }
