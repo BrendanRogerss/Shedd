@@ -13,6 +13,12 @@
 		C61DA8AC1F6CD6D3001CDEE8 /* pete_image.png in Resources */ = {isa = PBXBuildFile; fileRef = C61DA8A61F6CD6D2001CDEE8 /* pete_image.png */; };
 		C61DA8AD1F6CD6D3001CDEE8 /* event_image.png in Resources */ = {isa = PBXBuildFile; fileRef = C61DA8A71F6CD6D2001CDEE8 /* event_image.png */; };
 		C61DA8AE1F6CD6D3001CDEE8 /* richard_image.png in Resources */ = {isa = PBXBuildFile; fileRef = C61DA8A81F6CD6D2001CDEE8 /* richard_image.png */; };
+		C61DA8B01F6CD9AE001CDEE8 /* gray tag@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C61DA8AF1F6CD9AE001CDEE8 /* gray tag@2x.jpg */; };
+		C61DA8B21F6CD9B4001CDEE8 /* Meet Up Button@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C61DA8B11F6CD9B4001CDEE8 /* Meet Up Button@2x.jpg */; };
+		C61DA8B41F6CDE29001CDEE8 /* Message.png in Resources */ = {isa = PBXBuildFile; fileRef = C61DA8B31F6CDE29001CDEE8 /* Message.png */; };
+		C61DA8B61F6CDE2E001CDEE8 /* Interests.png in Resources */ = {isa = PBXBuildFile; fileRef = C61DA8B51F6CDE2E001CDEE8 /* Interests.png */; };
+		C61DA8B81F6CDE32001CDEE8 /* dude face.png in Resources */ = {isa = PBXBuildFile; fileRef = C61DA8B71F6CDE32001CDEE8 /* dude face.png */; };
+		C61DA8BA1F6CE0D1001CDEE8 /* Header@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C61DA8B91F6CE0D1001CDEE8 /* Header@2x.jpg */; };
 		C62A2D821F6C056A00745628 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C62A2D811F6C056A00745628 /* Podfile */; };
 		C696E4851F6CA93A005AFC37 /* single_guy_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C696E4841F6CA93A005AFC37 /* single_guy_pin@2x.png */; };
 		C696E4871F6CAA90005AFC37 /* Event_Pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C696E4861F6CAA90005AFC37 /* Event_Pin@2x.png */; };
@@ -55,6 +61,12 @@
 		C61DA8A61F6CD6D2001CDEE8 /* pete_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pete_image.png; sourceTree = "<group>"; };
 		C61DA8A71F6CD6D2001CDEE8 /* event_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event_image.png; sourceTree = "<group>"; };
 		C61DA8A81F6CD6D2001CDEE8 /* richard_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = richard_image.png; sourceTree = "<group>"; };
+		C61DA8AF1F6CD9AE001CDEE8 /* gray tag@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gray tag@2x.jpg"; path = "../../../Downloads/gray tag@2x.jpg"; sourceTree = "<group>"; };
+		C61DA8B11F6CD9B4001CDEE8 /* Meet Up Button@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Meet Up Button@2x.jpg"; path = "../../../Downloads/Meet Up Button@2x.jpg"; sourceTree = "<group>"; };
+		C61DA8B31F6CDE29001CDEE8 /* Message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Message.png; path = ../../../Downloads/Message.png; sourceTree = "<group>"; };
+		C61DA8B51F6CDE2E001CDEE8 /* Interests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Interests.png; path = ../../../Downloads/Interests.png; sourceTree = "<group>"; };
+		C61DA8B71F6CDE32001CDEE8 /* dude face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dude face.png"; path = "../../../Downloads/dude face.png"; sourceTree = "<group>"; };
+		C61DA8B91F6CE0D1001CDEE8 /* Header@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Header@2x.jpg"; sourceTree = "<group>"; };
 		C62A2D811F6C056A00745628 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C696E4841F6CA93A005AFC37 /* single_guy_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "single_guy_pin@2x.png"; path = "../../../Downloads/single_guy_pin@2x.png"; sourceTree = "<group>"; };
 		C696E4861F6CAA90005AFC37 /* Event_Pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Event_Pin@2x.png"; path = "../../../Downloads/Event_Pin@2x.png"; sourceTree = "<group>"; };
@@ -123,11 +135,17 @@
 		C6B470B51F6BF61D00AC7F8B = {
 			isa = PBXGroup;
 			children = (
+				C61DA8B91F6CE0D1001CDEE8 /* Header@2x.jpg */,
 				C61DA8A31F6CD6D2001CDEE8 /* brendan_image.png */,
 				C61DA8A41F6CD6D2001CDEE8 /* harry_image.png */,
 				C61DA8A51F6CD6D2001CDEE8 /* james_image.png */,
+				C61DA8AF1F6CD9AE001CDEE8 /* gray tag@2x.jpg */,
 				C61DA8A61F6CD6D2001CDEE8 /* pete_image.png */,
+				C61DA8B51F6CDE2E001CDEE8 /* Interests.png */,
+				C61DA8B31F6CDE29001CDEE8 /* Message.png */,
 				C61DA8A71F6CD6D2001CDEE8 /* event_image.png */,
+				C61DA8B11F6CD9B4001CDEE8 /* Meet Up Button@2x.jpg */,
+				C61DA8B71F6CDE32001CDEE8 /* dude face.png */,
 				C61DA8A81F6CD6D2001CDEE8 /* richard_image.png */,
 				C696E4841F6CA93A005AFC37 /* single_guy_pin@2x.png */,
 				C696E4861F6CAA90005AFC37 /* Event_Pin@2x.png */,
@@ -297,14 +315,20 @@
 			files = (
 				C61DA8AB1F6CD6D3001CDEE8 /* james_image.png in Resources */,
 				C61DA8A91F6CD6D2001CDEE8 /* brendan_image.png in Resources */,
+				C61DA8B21F6CD9B4001CDEE8 /* Meet Up Button@2x.jpg in Resources */,
+				C61DA8B81F6CDE32001CDEE8 /* dude face.png in Resources */,
+				C61DA8B41F6CDE29001CDEE8 /* Message.png in Resources */,
 				C61DA8AA1F6CD6D3001CDEE8 /* harry_image.png in Resources */,
 				C696E4851F6CA93A005AFC37 /* single_guy_pin@2x.png in Resources */,
 				C696E4871F6CAA90005AFC37 /* Event_Pin@2x.png in Resources */,
+				C61DA8BA1F6CE0D1001CDEE8 /* Header@2x.jpg in Resources */,
 				C6B470C91F6BF61D00AC7F8B /* Assets.xcassets in Resources */,
 				C62A2D821F6C056A00745628 /* Podfile in Resources */,
+				C61DA8B01F6CD9AE001CDEE8 /* gray tag@2x.jpg in Resources */,
 				C696E48E1F6CB555005AFC37 /* Dude Fly Up@2x.png in Resources */,
 				C6B470C71F6BF61D00AC7F8B /* Main.storyboard in Resources */,
 				C696E48B1F6CB01A005AFC37 /* UserView.xib in Resources */,
+				C61DA8B61F6CDE2E001CDEE8 /* Interests.png in Resources */,
 				C61DA8AE1F6CD6D3001CDEE8 /* richard_image.png in Resources */,
 				C61DA8AD1F6CD6D3001CDEE8 /* event_image.png in Resources */,
 				C61DA8AC1F6CD6D3001CDEE8 /* pete_image.png in Resources */,
